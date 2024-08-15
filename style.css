@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('fondo.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+	background-attachment: fixed;
+    color: white;
+    font-family: Arial, sans-serif;
+	list-style-position: inside;
+}
+
+.image-container {
+    border: 5px solid white; 
+    border-radius: 50%; 
+    display: inline-block;
+    padding: 5px; 
+    margin-left: 10%;
+    margin-top: 10em;
+}
+
+.image-container img {
+    display: block;
+    border-radius: 50%; 
+    width: 14em; 
+    height:14em;
+    object-fit: cover; 
+}
+
+.container-inicio {
+    display: flex;
+    align-items: end;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    padding: 1em;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 90%;
+    color: rgb(0, 0, 0);
+}
+
+.container-iz{
+    text-align: left;
+    display: flex;
+    padding: 1em;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    width: 90%;
+    color: rgb(0, 0, 0);
+}
+
+.columna{
+    flex: 1;
+    padding: 2em;
+}
+
+.cartainfo {
+    padding: 2em;
+    background: rgb(230, 230, 230);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.cartainfo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* Hereda el color del elemento padre */
+}
+
+.container-atras{
+	padding: 1em;
+	margin: 1em;
+	width: 4em;
+	height: 2em;
+	background: rgb(255, 255, 255);
+	border-radius: 10px;
+}
+
+.container-atras img{
+	display: block;
+    width: 3em; 
+    height:2em;
+    object-fit: cover; 
+	margin: auto;
+}
+
+.container-atras:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
